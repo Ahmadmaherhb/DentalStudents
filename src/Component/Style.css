@@ -1,0 +1,37 @@
+.mw50{
+    width: 50vw;
+}
+.blueden{
+    color: rgb(85, 205, 241);
+}
+.bgblueden{
+    background-color: rgb(85, 205, 241);
+}
+.borderbluedent{
+    border: 1px rgb(85, 205, 241) solid;
+}
+.borderbluedenthover:hover{
+    border: 1px rgb(85, 205, 241) solid;
+}
+.bluedenhover:hover{
+    color: rgb(85, 205, 241);
+}
+.whitedenhover:hover{
+    color: rgb(255, 255, 255);
+}
+.bgbluedenhover:hover{
+    background-color: rgb(85, 205, 241);
+}
+@media screen and (max-width:800px) {
+    .flexclrev{
+        flex-direction: column-reverse;
+    }
+    .flexclomn{
+        flex-direction: column;
+    }
+    .margintop10{
+        margin-top: 250px;
+    }.margintop1{
+        margin-top: 25px;
+    }
+  }
