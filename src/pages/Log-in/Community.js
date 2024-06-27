@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import './Style.css'
-import pic from  './About1.png'
-import pic2 from  './About2.png'
+import './../../Component/Style.css'
+import pic from  './../../Component/About1.png'
+import pic2 from  './../../Component/About2.png'
 function Community() {
   const [selectedUser, setSelectedUser] = useState(null);
 
