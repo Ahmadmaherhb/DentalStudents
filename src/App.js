@@ -15,7 +15,6 @@ function App() {
         <Route path='/community' element={<Community />} />
         </Routes>
       </BrowserRouter>
-      
     </div>
   );
 }
