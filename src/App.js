@@ -10,13 +10,16 @@ import { BrowserRouter, Route,Routes } from 'react-router-dom';
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
+      {/* <BrowserRouter>
         <Routes>
         <Route path='/' element={<Homepage />} />
         <Route path='/community' element={<Community />} />
         <Route path='/Signup' element={<Signup />} />
+        <Route path='/ClientdashboardHome' element={<ClientdashboardHome />} />
+        <Route path='/ClientDashboardBookAppointment' element={<ClientDashboardBookAppointment />} />
         </Routes>
-      </BrowserRouter>
+      </BrowserRouter> */}
+      <ClientdashboardHome />
     </div>
   );
 }

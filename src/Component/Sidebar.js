@@ -21,20 +21,20 @@ return (
                     </li>
                     <li className="mb-4">
                         <a href="#" className="flex items-center ml-2">
-                        <img src={"/img10.png"} alt='calendar icon' className='mr-4'/>
-                        <span className="mr-4">Appointment</span>
+                            <img src={"/schedule.svg"} alt='calendar icon' className='mr-4'/>
+                        <span className="mr-4 hover:text-[#55CDF1]">Appointment</span>
                         </a>
                     </li>
                     <li className="mb-4">
                         <a href="#" className="flex items-center ml-2">
                             <img src={"/img11.png"} alt='inbox icon' className='mr-4'/>
-                            <span className="mr-4">Inbox</span>
+                            <span className="mr-4 hover:text-[#55CDF1]">Inbox</span>
                         </a>
                     </li>
                     <li>
                         <a href="#" className="flex items-center ml-2">
                             <img src={"/img12.png"} alt='logout icon' className='mr-4'/>
-                            <span className="mr-4">Log out</span>
+                            <span className="mr-4 hover:text-[#55CDF1]">Log out</span>
                         </a>
                     </li>
                 </ul>
